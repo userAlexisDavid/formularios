@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+
+    <section class="" id="">
+        <div class="" id="">
+            <form method="get">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <div style="background-color: aqua;">
+                    <label for="nombre">Ingrese el nombre del estudiante:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre" ><br/>
+                    
+                    
+                </div>
+
+                <div>
+                    <label for="email">Ingrese el email</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese el email" required="true"><br/>
+
+                </div>
+
+                <div>
+                    <label for="edad">Ingrese la edad del estudiante</label>
+                    <input type="number" name="edad" id="edad" placeholder="Ingrese la edad del estudiante" required="true">
+
+                </div>
+
+                <div>
+                    <label >Genero</label><br/>
+                    <input type="radio" id="femenino" name="generos" value="femenino">
+                    <label for="femenino">femenino</label><br/>
+                    <input type="radio" name="masculino" id="masculino" value="masculino">
+                    <label for="masculino">masculino</label>
+                </div>
+                <div>
+                    <label >musica</label><br/>
+                    <input type="radio" id="rap" name="musica" value="rap">
+                    <label for="rap">rap</label><br/>
+                    <input type="radio" name="regueton" id="regueton" value="regueton">
+                    <label for="regueton">regueton</label>
+                </div>
+
+                <div>
+                    <label >Lenguaje de programacion</label>
+                    <input type="checkbox" name="programacion" id="java" value="java">
+                    <label for="java">Java</label><br/>
+                    <input type="checkbox" name="programacion" id="python" value="Python">
+                    <label for="python">Python</label><br/>
+                </div>
+
+                <div>
+                    <label for="autos">Marca de autos favorita</label><br/>
+                    <select name="autos" id="autos">
+                        <option value="chevrolet">chevrolet</option>
+                        <option value="ferrari">ferrari</option>
+                        <option value="audi">audi</option>
+                    </select>    
+
+                </div>
+
+                <div>
+                    <label for="comentario">Ingrese un comentario</label>
+                    <textarea name="coment" id="comentario" cols="30" rows="10">Este es mi comentario </textarea><br/>
+                </div>
+                <div>
+                    <label for="apellido">Ingrese el apellido del estudiante</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Escribe su apellido" required="true"><br/>
+                </div>
+
+                <div>
+                    <label for="password">Ingrese la contraseña</label>
+                    <input type="password" name="password" id="password" required="true" placeholder="Ingrese el password">
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="submit" formnovalidate="formnovalidate" value="Enviar datos sin validar">
+                </div>
+            </fieldset>
+            </form>
+
+        </div>
+    </section>
+    <footer>
+        <p>Desarrolado por Alexis Cabezas &copy; Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
